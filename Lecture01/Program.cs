@@ -2,6 +2,7 @@
 
 namespace Lecture01
 {
+
     public class Program
     {
         private bool isLeapYearBool;
@@ -70,4 +71,5 @@ namespace Lecture01
                 Console.WriteLine("Please type in year");
             }
  */
+
 

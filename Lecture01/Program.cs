@@ -5,6 +5,7 @@ namespace Lecture01
 
     public class Program
     {
+
             public static void Main(string[] args)
         {
             userInput_IsLeapYear(Convert.ToInt32(Console.ReadLine()));
@@ -52,8 +53,8 @@ namespace Lecture01
 
         }
 
+
         
     }
 }
-
 

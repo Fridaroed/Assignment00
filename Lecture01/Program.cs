@@ -4,7 +4,6 @@ namespace Lecture01
 {
     public class Program
     {
-        private bool isLeapYearBool;
             public static void Main(string[] args)
         {
             userInput_IsLeapYear(Convert.ToInt32(Console.ReadLine()));
@@ -56,18 +55,4 @@ namespace Lecture01
     }
 }
 
-
-
-/* LeapYear LY = new LeapYear();
-            try {
-                int year = int.Parse(Console.ReadLine());
-                LY.isLeapYear(year);
-            }
-            catch (ArgumentException e) {
-                Console.WriteLine(e.Message);
-            }
-            catch (FormatException) {
-                Console.WriteLine("Please type in year");
-            }
- */
 
